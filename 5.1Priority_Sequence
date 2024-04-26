@@ -1,0 +1,13 @@
+# What is Priority Sequence and why do we need it?
+# "Priority sequence" is the order in which Python evaluates operators and expressions. It follows the PEMDAS rule.
+# PEMDAS rule: P=paranthesis, E=exponents, M=multiplication, D=division, A=addition, S=subtraction
+# The priority sequence dictates that multiplication and division have the same precedence, as do addition and subtraction.
+# Therefore, when performing operations involving them, evaluation begins from the left.
+
+# Signs and their meanings
+# Sum -> + , Subtraction -> - , Divide -> / , Multiply -> * , Exponential number -> **
+print(2 + 3)
+print(18 - 7)
+print(56 / 8)
+print(12 * 3)
+print(2 ** 3)  # The first number will be the base and the second number will be the exponent.
