@@ -1,0 +1,30 @@
+# Basic data types and their uses
+# String: A data type that represents text data and is enclosed in single ('), double ("), or triple (''' or """) quotation marks.
+example_of_string1 = "Happy"
+example_of_string2 = "Sad"
+print(example_of_string1 + " " + example_of_string2)
+
+# In Python, there is no need to add quotation marks when printing variables,
+# because Python recognizes the variable's data type and processes the variable appropriately when needed.
+print("David[0]")  # Also you can reach the letters in a string using 0,1,2... 0=first letter 1=second letter and so on.
+# If you add double quotes between numbers, they are treated like text.
+print("123" + "456")
+# This treats them as part of text, so the output will be '123456' not 579.
+
+# Integer: A data type that represents integers, which are whole numbers without a decimal point.
+# In order to create an integer or declare an integer data type, just write a number without anything else.
+mom_age = 45
+dad_age = 41
+print("My parents' age difference is: ")
+print(mom_age - dad_age)
+# Why we did not write print("My parents' age difference is: " + mom_age - dad_age) because they are different types.
+# If you want to solve this, we have some ways, but we will learn later in Type-conversion.
+# If you work with long numbers, you can separate them with comma (,) or underscore (_).
+print(123, 767, 868)
+print(187_855_898_894_878)
+# They increase readability and do not appear in the real code.
+
+# Float: A data type that represents floating-point numbers, which are numbers with a decimal point.
+score = 13.1
+
+# Boolean: A data type that represents logical values, which can be either True or False.
