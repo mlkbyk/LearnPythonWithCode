@@ -1,0 +1,11 @@
+# How to define variables and how to use them?
+# A variable is a named storage location in a computer's memory that holds a value.
+# We have some rules for variable naming.
+# You cannot have space between words in a variable. e.g. user_name ✓, user name ✗
+# You can use numbers after words, but you cannot use them before words. e.g. user1 ✓, 1user ✗
+# And some words cannot be used for a variable. You can find them in this link:
+# https://www.geeksforgeeks.org/python-keywords/
+
+user1 = input("What is your name? ")  # We assign a variable user1 and take input from the user.
+user2 = input("What is your name? ")  # We assign a variable user2 and take input from the user.
+print("The club's new members are: " + user1 + " " + user2)  # We print text and variables. Double quotes for readability.
