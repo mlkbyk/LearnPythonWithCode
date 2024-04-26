@@ -1,0 +1,13 @@
+#How to use input and len function and their purpose.
+#If we want to interactive code we use input function.
+#------------>>>>>>>>input("prompt")<<<<<<<<<<<<<<<----------------
+#prompt = you will write which do you want.
+#You can combine with print statement,such that.
+print("Hello "+input("What is your name ?"))
+#When you enetered your name output seems like this 'Hello Mimi.'
+
+#We use the'len' function to find out how many letters are in a way.
+len("Harry")
+#But if you want to see the result you should add 'print' function.
+print(len("Harry"))
+
