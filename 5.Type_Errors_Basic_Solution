@@ -1,0 +1,20 @@
+# What are type errors, in what situations can they occur, and how to solve them?
+# TypeError: An error that occurs when an operation is performed on a data type that is not supported
+# or compatible with the operation being executed.
+letter_of_name = len(input("What is your name? "))
+# print("Your name has" + letter_of_name + "letters in it.") If you write this line directly you get a type error.
+# Because the len function returns an integer data type. If you want to add with the + sign, you should convert it to int->str.
+# Firstly, you can learn data's type with the type function.
+print(type(letter_of_name))
+# The letter_of_name type is an integer.
+string_version_of_num = str(letter_of_name)  # You can convert it like this.
+print("Your name has " + string_version_of_num + " letters in it.")
+
+# The input function returns a string, so if you work with numbers you should convert it to int or float.
+num1 = input("Enter a number: ")
+num2 = input("Enter a number: ")
+sum = int(num1) + int(num2)
+# Do not forget to convert str again.
+print("The sum is " + str(sum))
+
+# But a better way exists when printing different types of data. You can see what it is in the other code. (F strings and rounding)
