@@ -4,7 +4,7 @@
 #When you want to print something you should use 'print' function with double quoete.
 print("Hello World!")
 
-#Printing the pasta ingredients.
+#Printing the cake ingredients.
 #When you add to new line you do not need to more tahn once print .You can use '\n'
 print("1 cup of sugar.\n1 tablespoon of vanilla.\n3.5 cup of flour.\n1 packet cocoa.\n150 grams of coconut oil.")
 
