@@ -1,0 +1,25 @@
+# Some Operators and their meanings.
+# If-else structure
+# Comparison operators like <, >, <=, >=, ==, and != in Python are used to compare values and determine relationships
+# such as less than, greater than, less than or equal to, greater than or equal to, equal to, and not equal to, respectively.
+
+# Modula operator(%) = gives us the remainder from the division operation.
+print(21 % 2)  # result=1 because 21=10*2+1
+
+# If-else statements are used for conditional execution in Python.
+# They evaluate a condition and execute a block of code if the condition is true,
+# otherwise they execute a different block of code.
+# The "if" keyword is used to start the statement, followed by a condition to evaluate.
+# If the condition is true, the code inside the "if" block is executed.
+# Optionally, "elif" (short for "else if") statements can be used to evaluate additional conditions,
+# and the "else" statement provides a fallback for cases where none of the previous conditions are met.
+# If the condition after "if" or "elif" is false, the code inside the corresponding block is not executed,
+# and the execution proceeds to the next block or statement after the if-else construct.
+number = int(input("Enter the number please: "))  # Receive number from the user and do not forget to type transition
+
+if number > 0:  # If number is bigger than 0, then it's positive.
+    print("is a positive number.")
+elif number < 0:  # If number is smaller than 0, then it's negative.
+    print("is a negative number. ")
+else:  # If number is neither bigger nor smaller than 0, then it's 0.
+    print("is zero")
