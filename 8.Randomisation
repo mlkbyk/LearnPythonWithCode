@@ -1,0 +1,13 @@
+# Randomisation in Python
+# Randomisation in Python is the process of generating random values or selecting elements randomly from a collection.
+
+import random  # Import the random module to use randomization functions. What is a module? I will explain.
+
+random_integer = random.randint(1, 10)  # The system gives us a random integer between the boundaries (1, 10) inclusive.
+print(random_integer)
+
+random_float = random.random()
+print(random_float)  # This function always creates float numbers in the range [0, 1).
+# If you want to create numbers bigger than 1, such as (0, 5).
+print(random_float * 5)  # You can do this.
+# random_float=random.random(0,5) but this line of code does not work, it gives us an error.
