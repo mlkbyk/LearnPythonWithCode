@@ -1,0 +1,31 @@
+# How to round numbers and what is an f-string and its purpose?
+# Using an abridgment.
+
+# Rounding up numbers by default.
+print(round(8/3))
+print(type(round(8/3)))  # The result is a float.
+
+# It rounds up to numbers, but you can adjust sensitivity in two ways.
+print(round(8/3, 2))  # You can specify how many digits you want after the decimal point.
+print(type(round(8/3, 2)))  # The result is a float.
+
+# Another way is to use the // operator.
+print(8//3)
+
+# The result in this case is not the same as the result of the round function because
+# while the round function rounds the number up, the // operator gives the integer part of the division result.
+print(type(8//3))  # The result is an integer.
+
+# Some abridgments exist. They are very useful because you do not need a new variable and operation sign.
+# These are:  /=  *=  -=  +=
+result = 4/2
+result /= 2
+print(result)
+
+# Using f-string to insert variables into the string. So you can use different data types in just one sentence.
+# Firstly, you should use 'f' before the text.
+# Secondly, you should use curly braces {}
+student_name = "Hermione Granger"  # type=str
+potion_grade = 95.6  # type float
+dark_magic_grade = 98  # type=int
+print(f"Miss or Mister {student_name}\nyour Potion grade is= {potion_grade},\nDark Magic grade is= {dark_magic_grade}")
