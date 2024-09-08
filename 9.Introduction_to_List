@@ -1,0 +1,27 @@
+# If you want to store mixed data types or maintain order in your data, you can use the list data structure.
+# The general structure of a list is: fruits = [item1, item2, ...]
+# Items can be of any data type.
+fruits = ["Cherry", "Banana", "Strawberry"]
+
+# Lists maintain the order of elements, meaning the order in which you add items will be preserved.
+# Each item in the list has an index number, starting from 0. 
+# For example, "Cherry" is at index 0, "Banana" is at index 1, and so on.
+print(fruits[0])  # Outputs "Cherry"
+print(fruits[1])  # Outputs "Banana"
+print(fruits[2])  # Outputs "Strawberry"
+
+# If you use negative indexing, the order starts from the end of the list.
+# For example, -1 refers to the last item, -2 refers to the second-to-last, and so on.
+print(fruits[-1])  # Outputs "Strawberry"
+print(fruits[-2])  # Outputs "Banana"
+print(fruits[-3])  # Outputs "Cherry"
+
+# You can modify the items in a list.
+fruits[2] = "Melon"
+print(fruits)  # Outputs ['Cherry', 'Banana', 'Melon']
+
+# You can add an item to the end of the list using the append function.
+# There are many other functions available; see the link below for more information:
+# https://docs.python.org/3/tutorial/datastructures.html
+fruits.append("Kiwi")
+print(fruits)  # Outputs ['Cherry', 'Banana', 'Melon', 'Kiwi']
