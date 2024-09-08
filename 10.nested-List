@@ -1,0 +1,7 @@
+# You can combine two different lists.
+skin_care_products = ["moisturizer", "serum", "sunscreen"]
+hair_care_products = ["hair gel", "shampoo"]
+
+# To combine the lists, you can create a new list that contains them.
+shopping_list = [skin_care_products, hair_care_products]
+print(shopping_list)  # Outputs [['moisturizer', 'serum', 'sunscreen'], ['hair gel', 'shampoo']]
