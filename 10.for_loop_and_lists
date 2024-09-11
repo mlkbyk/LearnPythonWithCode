@@ -1,0 +1,10 @@
+# Creating a list containing vegetable names.
+vegetables = ["carrot", "spinach", "tomato"]
+
+# Using a for loop to iterate over each item in the vegetables list.
+for vegetable in vegetables:
+    # Printing the name of each vegetable.
+    print(vegetable)
+
+    # Printing the entire list of vegetables. This shows the complete list at each iteration.
+    print(vegetables)
